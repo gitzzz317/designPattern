@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class FlowerWebsite implements Flower , IFlowerWebsite {
+public class FlowerWebsite implements IFlowerWebsite , Flower{
     private List<Observer> observers = new ArrayList<>();
     @Override
     public void addObserver(Observer observer) {
